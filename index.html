@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- navigation bar here -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow " style="padding:0px;">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Zalego Academy</a><!--this is for creating the side branding which sends you to home page-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false"><!--the target is used to show when you click the button it will open the id you have specified-->
@@ -28,8 +28,8 @@
     </nav>
     <!-- end navigation bar -->
 
-    <main class="p-5 mb-4 bg-light">
-        <h1>Welcome , Virginia Kabaria</h1>
+    <main class="p-5 mb-4 bg-light ">
+        <h1>Welcome , Virginia Kabaria.</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero earum vel inventore quibusdam sed, ex ratione harum voluptas! Suscipit qui expedita minima, beatae, pariatur quasi aliquid saepe inventore nulla optio, omnis soluta voluptatibus? Saepe quam iure adipisci, aperiam, ipsa assumenda minima commodi expedita nostrum dolores inventore cumque facere mollitia et?</p>
         <button class="btn btn-primary">learn more</button>
 
@@ -58,6 +58,47 @@
                 <button class="btn btn-primary">learn more</button>
             </div>
         </div>
+        <!-- contact us page here -->
+        <div class="row pt-5">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab officiis amet animi laboriosam quisquam nihil, impedit distinctio itaque. Quos, earum!</p>
+            <form >
+                <div class="row">
+                    <div class="mb-3  col-lg-6">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" placeholder="Please enter your First Name" ><!--form-control makes the text area to be below the label-->
+                        
+                    </div>
+                    <div class="mb-3 col-lg-6">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Please enter your Last Name" ><!--form-control makes the text area to be below the label-->
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mb-3 col-lg-6">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" placeholder="Please enter your Phone Number" ><!--form-control makes the text area to be below the label-->
+                        
+                    </div>
+                    <div class="mb-3 col-lg-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="Please enter your  Email" ><!--form-control makes the text area to be below the label-->
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mb-3 col-lg-12">
+                        <label for="message" class="form-label">Your Message</label>
+                        <textarea cols="30" rows="5" class="form-control" placeholder="Please enter your message here"></textarea>                        
+
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-primary mt-3">Send A Message</button>
+            </form >
+        </div>
+        <!-- End Contact Us Page -->
+        
             <hr>
             <footer>
                 &copy;Company 2022
@@ -68,8 +109,8 @@
 
 
 
-
-    <script src="bootstrap-5.2.0/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+   <!-- <script src="bootstrap-5.2.0/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>-->
     <script src="bootstrap-5.2.0/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
