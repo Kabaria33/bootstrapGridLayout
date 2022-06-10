@@ -14,12 +14,12 @@
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Zalego Academy</a><!--this is for creating the side branding which sends you to home page-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false"><!--the target is used to show when you click the button it will open the id you have specified-->
-                <span class="navbar-toggler-icon"></span><!--for the  icon -->
+                <span class="navbar-toggler-icon "></span><!--for the  icon -->
             </button>
             <div class="collapse navbar-collapse" id="navbar"><!--this is the id being refrenced above-->
                 <div class="navbar-nav">
                     <a href="#" class="nav-link active">Home</a>
-                    <a href="#" class="nav-link">About Us</a>
+                    <a href="aboutus.html" class="nav-link">About Us</a>
                     <a href="#" class="nav-link">Contact Us</a>
                 </div>
             </div>
@@ -59,20 +59,18 @@
             </div>
         </div>
         <!-- contact us page here -->
-        <div class="row pt-5">
+        <div class="row pt-5 ">
             <h1>Contact Us</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab officiis amet animi laboriosam quisquam nihil, impedit distinctio itaque. Quos, earum!</p>
-            <form >
-                <div class="row">
+            <form class="needs-validation" novalidate>
+                <div class="row" >
                     <div class="mb-3  col-lg-6">
                         <label for="firstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" placeholder="Please enter your First Name" ><!--form-control makes the text area to be below the label-->
-                        
-                    </div>
+                        <input type="text" class="form-control" placeholder="Please enter your First Name" required><!--form-control makes the text area to be below the label-->
+                     </div>
                     <div class="mb-3 col-lg-6">
                         <label for="lastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" placeholder="Please enter your Last Name" ><!--form-control makes the text area to be below the label-->
-                        
+                        <input type="text" class="form-control" placeholder="Please enter your Last Name" >                   
                     </div>
                 </div>
                 <div class="row">
